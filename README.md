@@ -7,13 +7,13 @@ Yes, I know that most can be done easily, perhaps even with built-in functions, 
 ## Questions
 
 1. Compute the Factorial of a number `N`. `Fact(N) = N * (N - 1) * ... * 1`
-1. Write a function for `mutliply(a, b)`, where `a` and `b` are both positive integers, but you can only use the `+` or `-` operators.
-4. Raise a double to an integer power: write a recursive function that allows raising to a negative integer power as well.
+1. Write a function for `multiply(a, b)`, where `a` and `b` are both positive integers, but you can only use the `+` or `-` operators.
+1. Raise a double to an integer power: write a recursive function that allows raising to a negative integer power as well.
 1. Amend the example to sum the first `-n` negative numbers as well as positive numbers, e.g. `SumToN(-3)` returns `-6`.
-5. Find Greatest Common Divisor (GCD) of 2 numbers using recursion (hint: Euclid).
+1. Find Greatest Common Divisor (GCD) of 2 numbers using recursion (hint: Euclid).
 1. Write a recursive function to reverse a string. 
 	1. Write a recursive function to reverse the words in a string, i.e., "cat is running" becomes "running is cat".
-7. **Medium hard** A word is considered *elfish* if it contains the letters: e, l, and f in it, in any order. For example, we would say that the following words are *elfih*: whiteleaf, tasteful, unfriendly,
+1. **Medium hard** A word is considered *elfish* if it contains the letters: e, l, and f in it, in any order. For example, we would say that the following words are *elfih*: whiteleaf, tasteful, unfriendly,
 and waffles, because they each contain those letters.
 	- Write a predicate function (i.e. one that returns a Boolean) called `isElfish` that, given a word, tells us if that word is elfish or not.
 	- Write a more generalised predicate function called `isXish` that, given two words, returns true if all the letters of the first word are contained in the second.
